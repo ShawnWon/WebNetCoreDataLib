@@ -1,0 +1,21 @@
+﻿@page
+@model WebNetCoreDataLib.Areas.Test.Pages.Account.GetMyRolesModel
+@{
+}
+    <table class="table table-striped">
+        <thead class="thead-dark">
+            <tr>
+                <th>RoleId</th>
+                <th>RoleName</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var role in Model.myRoles)
+            {
+                <tr>
+                    <td>@role.RoleId</td>
+                    <td>@role.Name</td>
+                </tr>
+            }
+        </tbody>
+    </table>

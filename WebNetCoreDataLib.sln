@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29519.87
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebNetCoreDataLib", "WebNetCoreDataLib\WebNetCoreDataLib.csproj", "{9CE3CFCE-ED36-46C1-9D22-ECB18DF20148}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetDataLibrary", "NetDataLibrary\NetDataLibrary.csproj", "{1C61186A-02FC-4987-8690-4BF0E79B7769}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9CE3CFCE-ED36-46C1-9D22-ECB18DF20148}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9CE3CFCE-ED36-46C1-9D22-ECB18DF20148}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9CE3CFCE-ED36-46C1-9D22-ECB18DF20148}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9CE3CFCE-ED36-46C1-9D22-ECB18DF20148}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1C61186A-02FC-4987-8690-4BF0E79B7769}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C61186A-02FC-4987-8690-4BF0E79B7769}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C61186A-02FC-4987-8690-4BF0E79B7769}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C61186A-02FC-4987-8690-4BF0E79B7769}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8DEFD1F7-6CF7-4513-B83B-9B5D6014A2D7}
+	EndGlobalSection
+EndGlobal
